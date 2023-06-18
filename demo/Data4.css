@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+
+.flex-container{
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: space-between;
+}
+
+.flex-container div{
+    border:2px solid rgb(0, 149, 255);
+    background-color:rgb(90, 182, 247);
+    border-radius:5px;
+    height:60px;
+    margin:20px;
+
+}
+
+.item1{
+    width:40%;
+}
+.item2{
+    width:50%;
+}
+.item3{
+    width:60%;
+}
+.item4{
+    width:20%;
+}
+.item5{
+    width:30%;
+}

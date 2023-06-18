@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+
+.flex-container{
+    display: flex;
+    height:700px;
+    padding:30px;
+    align-items:flex-end;
+    margin: 50px;
+    justify-content: space-around;
+
+}
+
+.flex-container div{
+    background-color: rgb(90, 182, 247);
+    width:60px;
+    border:2px solid rgb(0,149,255);
+    border-radius:5px;
+
+}
+
+.item1{
+    height:40%;
+}
+
+.item2{
+    height:50%;
+}
+.item3{
+    height:60%;
+}
+.item4{
+    height:20%;
+}
+.item5{
+    height:30%;
+}
